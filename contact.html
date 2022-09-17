@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="description" content="Index">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+    <!-- Hotjar Tracking Code for https://www.blizzcode.com/ -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 2801497, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+</head>
+
+<body>
+
+
+    <center>
+        <img class="logo" src="pics/blizzcode_logo.jpg" alt="blizzcode.com_logo">
+    </center>
+
+    <h1>Contact information</h1>
+    <p>Email - thomashaugeland@outlook.com</p>
+    <p>Telephone - (0047) 472-67-942</p>
+    <a href="https://www.linkedin.com/in/thomas-haugeland-001b345a/">LinkedIn</a>
+
+    <main class="container">
+        <form id="contactForm">
+            <div>
+                <label>
+                    Name: (required)
+                    <input name="name" id="name" />
+                </label>
+                <div class="form-error" id="nameError">Please enter your name</div>
+            </div>
+
+            <div>
+                <label>
+                    Subject:
+                    <input name="subject" id="subject" />
+                </label>
+                <div class="form-error" id="subjectError">Please write your subject</div>
+            </div>
+
+            <label>
+                Address:
+                <input name="address" id="address" />
+            </label>
+            <div class="form-error" id="addressError">Please enter your address</div>
+            </div>
+
+            <div>
+                <label>
+                    Email: (required)
+                    <input name="email" id="email" />
+                </label>
+                <div class="form-error" id="emailError">Please enter a valid email address</div>
+            </div>
+
+            <button>Submit</button>
+        </form>
+        <div>
+            <p>Please fill out the form and I`ll get in touch.</p>
+            <div class="validatet" id="validatet">Please fill out the form</div>
+        </div>
+    </main>
+
+    <ul>
+        <li><a href="index.html" class='active-page'>Home</a></li>
+        <li class=navbar_item><a href="cv.html"> CV</a></li>
+        <li class=navbar_item><a href="front end.html"> Front end</a></li>
+        <li class=navbar_item><a href="family.html"> My family</a></li>
+        <li class=navbar_item><a href="contact.html"> Contact</a></li>
+        <li class=navbar_item><a href="examples.html"> Examples</a></li>
+    </ul>
+    </nav>
+
+    <footer>©Copyright Blizzcode school project. All rights reserved.</footer>
+
+</body>
+
+</html>

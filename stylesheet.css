@@ -1,0 +1,176 @@
+body {
+  background-color: white;
+  font-family: londrina solid, cursive, arial, tahoma;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* HEADING STYLE */
+
+h1 {
+  color: #DAA520;
+  font-size: 25px;
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+h2 {
+  color: #DAA520;
+  font-size: 23px;
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+h3 {
+  margin: 1em 0 0.5em 0;
+	color: black;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 1px 2px #DAA520;
+}
+
+/* PARAGRAPH STYLE */
+
+p {
+  color: black;
+  font-size: 17px;
+  text-align: center;
+}
+
+/* LOGO STYLE */
+
+.logo {
+  height: 100px;
+  width: 500px;
+  }
+
+  /* PHOTO STYLE */
+
+.photos {
+height: 400px;
+width: 300px;
+}
+
+.photos1 {
+  height: 300px;
+  width: 180px;
+  background-color: black;
+  }
+
+.photos2 {
+  height: 400px;
+  width: 240px;
+}
+
+/* FOOTER STYLE */
+
+footer {
+  font-size: 0.55em;
+  color: black;
+}
+
+/* NAV STYLE */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+ul li a.active-page {
+  background-color:black;
+  color: white;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  color: #DAA520;
+  background-color: #111;
+}
+
+ul li a.active {
+  background-color: black;
+  color: #DAA520;
+}
+
+/* FORM STYLE */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.container {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  max-width: 560px;
+}
+
+form {
+  padding: 2em;
+  background: black;
+  border-radius: 1rem;
+}
+
+input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: black;
+  border-color: #DAA520;
+  border-radius: 2px;
+  width: 200px;
+  padding: 1rem;
+  color:#ecc256;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: .2rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  color:#ecc256
+}
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+.validatet{
+  display: none;
+  color: yellow;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
